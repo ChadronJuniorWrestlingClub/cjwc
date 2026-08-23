@@ -1,0 +1,53 @@
+.subpage-header { background: #151515; color: #fff; }
+.subpage-header .site-header { position: relative; }
+.subpage-header .nav { min-height: 76px; }
+.subpage-header .nav-links { gap: 18px; }
+.page-hero { padding: 92px 0 70px; background: #151515; color: #fff; }
+.page-hero .section-tag { color: #d7d7d7; }
+.page-hero h1 { margin: 15px 0 0; font-size: clamp(4rem, 10vw, 8.5rem); }
+.content-page { padding: 82px 0 110px; }
+.content-grid { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(260px, .6fr); gap: 55px; }
+.content-grid h2 { margin-bottom: 22px; }
+.content-grid p, .content-grid li { line-height: 1.75; }
+.subpage-header .content-page a:not(.button) { color: #fff; text-decoration-color: #b9b9b9; }
+.subpage-header .content-page a:not(.button):hover { color: #d7d7d7; }
+.subpage-header .faq-list { border-color: rgba(255,255,255,.35); }
+.subpage-header .faq-list details { border-color: rgba(255,255,255,.35); }
+.subpage-header .faq-list details p { color: #e2ded8; }
+.notice { padding: 24px; background: #e4e1dc; border-left: 5px solid var(--red); color: var(--ink); }
+.notice h1, .notice h2, .notice h3, .notice p, .notice li { color: var(--ink); }
+.resource-list { border-top: 1px solid var(--line); }
+.resource-list a { display: flex; justify-content: space-between; gap: 18px; padding: 18px 0; color: #fff; border-bottom: 1px solid rgba(255,255,255,.35); font-weight: 700; text-decoration: none; }
+.resource-list a:hover { color: #d7d7d7; }
+.calendar-image { display: block; width: 100%; height: auto; border: 1px solid var(--line); }
+.calendar-key { display: flex; gap: 24px; flex-wrap: wrap; margin: 20px 0 0; font-size: .86rem; color: #fff; }
+.calendar-key span::before { content: ""; display: inline-block; width: 13px; height: 13px; margin-right: 7px; vertical-align: -2px; border: 1px solid #bbb; }
+.calendar-key .g1::before { background: #00ff00; }.calendar-key .g2::before { background: #00e8f2; }.calendar-key .break::before { background: #fff; border: 3px solid #f00; }
+.detail-section { padding: 0 0 72px; margin: 0 0 72px; border-bottom: 1px solid rgba(255,255,255,.35); }
+.detail-section:last-child { margin-bottom: 0; border-bottom: 0; }
+.detail-section > h2 { margin: 13px 0 34px; }
+.detail-section > p { max-width: 720px; }
+.info-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 1px solid rgba(255,255,255,.35); }
+.info-grid article { padding: 22px 26px 22px 0; border-bottom: 1px solid rgba(255,255,255,.35); }
+.info-grid article:nth-child(even) { padding-left: 26px; border-left: 1px solid rgba(255,255,255,.35); }
+.info-grid h3, .finder-title { margin: 0 0 11px; font-size: 1.55rem; }
+.info-grid p { margin: 0; color: #e2ded8; font-size: .9rem; line-height: 1.7; }
+.finder-title { margin-top: 52px; }
+.tournament-links { margin-top: 34px; }
+.board-section { padding: 115px 0; }.board-grid { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line); }.board-grid article { min-height: 175px; padding: 20px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }.board-grid article:nth-child(4n) { border-right: 0; }.board-grid p { margin-bottom: 22px; color: var(--red); font: .63rem var(--mono); letter-spacing: .09em; }.board-grid h3 { font-size: 1.9rem; line-height: .95; }
+.form-actions { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 30px; }.print-form { max-width: 860px; padding: 42px; background: #fff; border: 1px solid #aaa; color: var(--ink); }.print-form h1, .print-form h2, .print-form h3, .print-form p, .print-form .field, .print-form .signature { color: var(--ink); }.print-form h2 { font-size: 3rem; }.form-section { margin-top: 32px; padding-top: 18px; border-top: 2px solid #111; }.form-section h3 { margin-bottom: 15px; font-size: 1.5rem; }.field-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px 25px; }.field { padding: 14px 0 5px; border-bottom: 1px solid #555; font-size: .82rem; }.field.full { grid-column: 1 / -1; }.consent { font-size: .78rem; line-height: 1.55; }.signature { height: 55px; padding-top: 34px; border-bottom: 1px solid #111; }.print-only { display: none; }
+.subpage-header .site-footer .footer-brand, .subpage-header .site-footer a { color: #fff; }.subpage-header .site-footer a:hover, .subpage-header .site-footer a:focus-visible { color: #d7d7d7; }.subpage-header .no-print .section-tag { color: #d7d7d7; }
+.check-field { display: flex; flex-wrap: wrap; gap: 9px 18px; margin: 0; padding: 10px 0 6px; border: 0; border-top: 1px solid #555; color: var(--ink); }
+.check-field legend { width: 100%; padding: 0 0 5px; font-size: .82rem; }
+.check-field label { display: inline-flex; align-items: center; gap: 4px; font-size: .78rem; white-space: nowrap; }
+.check-field input { width: 14px; height: 14px; margin: 0; accent-color: var(--red); }
+.consent-list { display: grid; gap: 12px; margin: 18px 0 24px; }
+.consent-check { display: grid; grid-template-columns: 18px 1fr; gap: 10px; margin: 0; padding: 12px; border: 1px solid #8b8b8b; color: var(--ink); font-size: .76rem; line-height: 1.5; }
+fieldset.consent-check { grid-template-columns: 1fr; }
+.consent-check legend { padding: 0 4px; font-weight: 700; }
+.consent-check p { margin: 0; }
+.consent-check label { display: block; margin-top: 7px; }
+.consent-check input { width: 14px; height: 14px; margin: 2px 0 0; accent-color: var(--red); }
+fieldset.consent-check input { margin-right: 6px; vertical-align: -2px; }
+@media (max-width: 800px) { .content-grid, .info-grid { grid-template-columns: 1fr; gap: 35px; }.info-grid article, .info-grid article:nth-child(even) { padding: 22px 0; border-left: 0; }.board-grid { grid-template-columns: repeat(2, 1fr); }.board-grid article:nth-child(4n) { border-right: 1px solid var(--line); }.board-grid article:nth-child(2n) { border-right: 0; }.print-form { padding: 24px; }.field-grid { grid-template-columns: 1fr; } }
+@media print { .site-header, .page-hero, .form-actions, .no-print { display: none !important; }.print-only { display: block; }.content-page { padding: 0; }.print-form { border: 0; max-width: none; padding: 0; }.field { min-height: 28px; } }
