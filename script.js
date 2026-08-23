@@ -5,6 +5,17 @@ document.querySelectorAll('a[href="calendar.html"]').forEach((link) => {
   link.textContent = "Schedule";
 });
 
+const boardGrid = document.querySelector(".board-grid");
+const additionalBoardMembers = ["Taylor Coy", "Ali Redden", "Austin Thies"];
+
+if (boardGrid) {
+  additionalBoardMembers.forEach((member) => {
+    const card = document.createElement("article");
+    card.innerHTML = `<p>BOARD MEMBER</p><h3>${member.toUpperCase()}</h3>`;
+    boardGrid.appendChild(card);
+  });
+}
+
 if (toggle && navLinks) {
   toggle.addEventListener("click", () => {
     const isOpen = navLinks.classList.toggle("open");

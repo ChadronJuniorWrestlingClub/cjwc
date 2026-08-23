@@ -41,6 +41,7 @@
 .check-field legend { width: 100%; padding: 0 0 5px; font-size: .82rem; }
 .check-field label { display: inline-flex; align-items: center; gap: 4px; font-size: .78rem; white-space: nowrap; }
 .check-field input { width: 14px; height: 14px; margin: 0; accent-color: var(--red); }
+.print-form .form-section:first-of-type .field-grid::after { content: "Gender"; padding: 14px 0 5px; border-bottom: 1px solid #555; font-size: .82rem; }
 .consent-list { display: grid; gap: 12px; margin: 18px 0 24px; }
 .consent-check { display: grid; grid-template-columns: 18px 1fr; gap: 10px; margin: 0; padding: 12px; border: 1px solid #8b8b8b; color: var(--ink); font-size: .76rem; line-height: 1.5; }
 fieldset.consent-check { grid-template-columns: 1fr; }
