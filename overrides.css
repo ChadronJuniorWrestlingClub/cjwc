@@ -32,3 +32,6 @@
 .notice-loading { grid-column: 1 / -1; padding: 24px 0; color: #55514b; }.notices-remind { margin: 25px 0 0; color: #4a4640; }
 @media (max-width: 800px) { .notices-section { padding: 80px 0; }.notices-heading, .notice-list { grid-template-columns: 1fr; gap: 24px; }.notices-heading { margin-bottom: 30px; }.notice-item, .notice-item:nth-child(3n) { min-height: 0; border-right: 0; }.notice-type { margin-bottom: 20px; } }
 @media (max-width: 800px) { .join-grid { grid-template-columns: 1fr; gap: 22px; } }
+/* Let the home page banner grow so the bottom tagline never overlaps the buttons */
+.hero { height: auto; min-height: max(680px, 100vh); }
+.hero-content { padding-bottom: 90px; }
