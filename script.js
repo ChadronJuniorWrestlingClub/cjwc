@@ -6,7 +6,7 @@ document.querySelectorAll('a[href="calendar.html"]').forEach((link) => {
 });
 
 const boardGrid = document.querySelector(".board-grid");
-const additionalBoardMembers = ["Taylor Coy", "Ali Redden", "Austin Thies"];
+const additionalBoardMembers = [];
 
 if (boardGrid) {
   additionalBoardMembers.forEach((member) => {
