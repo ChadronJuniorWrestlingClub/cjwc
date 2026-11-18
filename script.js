@@ -82,7 +82,7 @@ function renderNotices(rows) {
   const notices = entries.filter((entry) => entry.some(Boolean));
 
   if (!notices.length) {
-    noticeList.textContent = "No club notices are posted right now. Check Remind for updates.";
+    noticeList.textContent = "No club notices are posted right now. Check back soon.";
     return;
   }
 
@@ -115,6 +115,6 @@ if (noticeList) {
     .then(parseCsv)
     .then(renderNotices)
     .catch(() => {
-      noticeList.textContent = "Club notices are temporarily unavailable. Check Remind for the latest updates.";
+      noticeList.textContent = "Club notices are temporarily unavailable. Please check back later or visit the club Facebook page.";
     });
 }
